@@ -39,6 +39,7 @@
 `})`   
 
 类型|触发条件
+- | :-: 
 touchstart|手指触摸动作开始
 touchmove|手指触摸后移动
 touchcancel|手指动作被打断，如来电提醒|弹框
