@@ -74,5 +74,6 @@
 **更多的事件请参考 [小程序事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html)。**
 ## 数据绑定、列表渲染、条件渲染、模板和vuejs相似 
 
+
 模块|小程序|vuejs
 条件渲染 |wx:if | v-if
