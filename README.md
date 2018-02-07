@@ -12,15 +12,15 @@
 `"enablePullDownRefresh": true`  
 ## 授权获取用户信息  
 `getUserInfo(){`    
-      `var that = this`     
-      `wx.getUserInfo({`    
-      `success: function (res) {`    
-        `console.log(res.userInfo)`    
-      `},`  
-      `fail((err)=>{`  
-       `console.log(err)`  
-      `})`  
-    `})`    
+      &nbsp;`var that = this`     
+      &nbsp;`wx.getUserInfo({`    
+      &nbsp;`success: function (res) {`    
+        &nbsp;`console.log(res.userInfo)`    
+      &nbsp;`},`  
+      &nbsp;`fail((err)=>{`  
+       &nbsp;`console.log(err)`  
+      &nbsp;`})`  
+    &nbsp;`})`    
   `}`
 * 授权成功
  `res.userInfo`为用户的信息
