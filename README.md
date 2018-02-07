@@ -11,17 +11,17 @@
 `navigationBarTitleText`为标题的title  
 `"enablePullDownRefresh": true`  
 ## 授权获取用户信息  
-`getUserInfo(){    
-    var that = this   
-    wx.getUserInfo({    
-      success: function (res) {    
-        console.log(res.userInfo)    
-      },  
-      fail((err)=>{  
-       console.log(err)  
-      })  
-    })    
-  } `
+`getUserInfo(){`    
+    `var that = this`   
+    `wx.getUserInfo({`    
+      `success: function (res) {`    
+        `console.log(res.userInfo)`    
+      `},`  
+      `fail((err)=>{`  
+       `console.log(err)`  
+      `})`  
+    `})`    
+  `}`
 ** 授权成功
  `res.userInfo`为用户的信息
 ** 授权失败  
