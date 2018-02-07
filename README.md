@@ -75,5 +75,15 @@
 ## 数据绑定、列表渲染、条件渲染、模板和vuejs相似 
 
 |模块|小程序|vuejs|
-|:---|:---:|---:|
+|:---|:---:|:---|
+|数据绑定|{{message}}|{{message}}|
+|列表渲染|wx:for/wx:for-index="index" wx:for-item="item"|v-for/item,index|
 |条件渲染 |wx:if | v-if|
+|模板|WXML提供模板（template）|vue注册引用|
+|引用|import直接is使用|import compents注册使用|
+**注意： 花括号和引号之间如果有空格，将最终被解析成为字符串  
+ 花括号和引号之间如果有空格，将最终被解析成为字符串  
+ name为模板的名字，is引用
+ include  可以将目标文件除了 <template/> <wxs/> 外的整个代码引入，相当于是拷贝到 include 位置
+ **  
+
