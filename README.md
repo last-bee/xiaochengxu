@@ -71,4 +71,4 @@
   </view>
 </view>
  ```
-** 更多的事件请参考 [小程序事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html)。 **
+**更多的事件请参考 [小程序事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html)。**
