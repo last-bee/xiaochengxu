@@ -12,8 +12,8 @@
 `"enablePullDownRefresh": true`  
 ## 授权获取用户信息  
 `getUserInfo(){`    
-    `var that = this`   
-    `wx.getUserInfo({`    
+      `var that = this`   
+      `wx.getUserInfo({`    
       `success: function (res) {`    
         `console.log(res.userInfo)`    
       `},`  
@@ -22,7 +22,7 @@
       `})`  
     `})`    
   `}`
-** 授权成功
+* 授权成功
  `res.userInfo`为用户的信息
-** 授权失败  
+* 授权失败  
 `{errMsg: "getUserInfo:fail auth deny"}`
