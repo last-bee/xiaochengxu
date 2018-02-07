@@ -47,5 +47,10 @@
 | touchend | 手指触摸动作结束 |
 | tap | 手指触摸后马上离开 |
 | longpress | 手指触摸后，超过350ms后离开，入火指定了回调函数并触发这个事件，tap时间将不被触发 |
+| longtap | 手指触摸后，超过350ms再离开（推荐使用longpress事件代替） |
+| transitionend | 会在 WXSS transition 或 wx.createAnimation 动画结束后触发 |
+| animationstart | 会在一个 WXSS animation 动画开始时触发 |
+| animationiteration | 会在一个 WXSS animation 一次迭代结束时触发 |
+| animationend | 会在一个 WXSS animation 动画完成时触发 |
 
-
+<strong>注：除上表之外的其他组件自定义事件如无特殊声明都是非冒泡事件，如<form/>的submit事件，<input/>的input事件，<scroll-view/>的scroll事件，(详见各个组件)</strong>
