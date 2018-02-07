@@ -37,7 +37,9 @@
     `console.log(event)`  
   `}`  
 `})` 
-|类型|触发条件| 
+
+
+| 类型 | 触发条件 | 
 | - | :-: |
 | touchstart | 手指触摸动作开始 |
 | touchmove | 手指触摸后移动 |
