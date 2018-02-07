@@ -60,7 +60,7 @@
 * key 以bind或catch开头，然后跟上事件的类型，如bindtap、catchtouchstart。自基础库版本 1.5.0 起，bind和catch后可以紧跟一个冒号，其含义不变，如* *  bind:tap、、catch:touchstart。
 * value 是一个字符串，需要在对应的 Page 中定义同名的函数。不然当触发事件的时候会报错。
 <strong>bind事件绑定不会阻止冒泡事件向上冒泡，catch事件绑定可以阻止冒泡事件向上冒泡。</strong>
-``` javesript
+``` html
 <view id="outer" bindtap="handleTap1">
   outer view
   <view id="middle" catchtap="handleTap2">
@@ -69,5 +69,6 @@
       inner view
     </view>
   </view>
-  ```
 </view>
+ ```
+*** 更多的事件请参考 [小程序 事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html)。 *** 
