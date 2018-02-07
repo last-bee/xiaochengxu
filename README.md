@@ -37,7 +37,11 @@
     `console.log(event)`  
   `}`  
 `})`   
-
+| Name | Academy | score | 
+| - | :-: | -: | 
+| Harry Potter | Gryffindor| 90 | 
+| Hermione Granger | Gryffindor | 100 | 
+| Draco Malfoy | Slytherin | 90 |
 |类型|触发条件|
 - | :-: 
 |touchstart|手指触摸动作开始|
