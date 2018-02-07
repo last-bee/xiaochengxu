@@ -12,7 +12,7 @@
 `"enablePullDownRefresh": true`  
 ## 授权获取用户信息  
 `getUserInfo(){`    
-      `var that = this`   
+      `var that = this`     
       `wx.getUserInfo({`    
       `success: function (res) {`    
         `console.log(res.userInfo)`    
