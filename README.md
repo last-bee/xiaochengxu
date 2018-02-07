@@ -38,13 +38,13 @@
   `}`  
 `})`   
 
-类型|触发条件
+|类型|触发条件
 - | :-: 
-touchstart|手指触摸动作开始
-touchmove|手指触摸后移动
-touchcancel|手指动作被打断，如来电提醒|弹框
-touchend|手指触摸动作结束
-tap|手指触摸后马上离开
-longpress|手指触摸后，超过350ms后离开，入火指定了回调函数并触发这个事件，tap时间将不被触发
+|touchstart|手指触摸动作开始
+|touchmove|手指触摸后移动
+|touchcancel|手指动作被打断，如来电提醒|弹框
+|touchend|手指触摸动作结束
+|tap|手指触摸后马上离开
+|longpress|手指触摸后，超过350ms后离开，入火指定了回调函数并触发这个事件，tap时间将不被触发
 
 
