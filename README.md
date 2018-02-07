@@ -81,9 +81,32 @@
 |条件渲染 |wx:if | v-if|
 |模板|WXML提供模板（template）|vue注册引用|
 |引用|import直接is使用|import compents注册使用|
+
+
 **注意： 花括号和引号之间如果有空格，将最终被解析成为字符串  
  花括号和引号之间如果有空格，将最终被解析成为字符串  
  name为模板的名字，is引用
  include  可以将目标文件除了 <template/> <wxs/> 外的整个代码引入，相当于是拷贝到 include 位置
  **  
+ 
+ ## WXSS
+ 用css编写就可以用于描述wxml的组件样式  
+ 为了适应广大的前端开发者，WXSS 具有 CSS 大部分特性。同时为了更适合开发微信小程序，WXSS 对 CSS 进行了扩充以及修改。
+ ### 与css相比 wxss扩展的特性有
+ * 尺寸单位
+ * 样式导入
+ ### 尺寸单位 
+ * 相当于rem 在iphone6的屏幕上1rpx = 1物理像素 响应式布局
+ 
+ |设备|	rpx换算px (屏幕宽度/750)|px换算rpx (750/屏幕宽度)|
+ |:---|:---:|:---|
+ |iPhone5|1rpx = 0.42px|1px = 2.34rpx|
+ |iPhone6|1rpx = 0.5px|1px = 2rpx|
+ |iPhone6 Plus|1rpx = 0.552px|1px = 1.81rpx|
+ ## 内联样式
+ `<view style="color:{{color}};" />`
+ `<view class="normal_view" />`
+ ## 全局样式与局部样式
+ * app.wxss 中的样式为全局样式  
+ *  page 的 wxss 文件中定义的样式为局部样式 只作用在对应的页面，并会**覆盖 app.wxss** 中相同的选择器
 
