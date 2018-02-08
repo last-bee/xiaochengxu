@@ -29,6 +29,11 @@
 ---
 获取用户信息在全局存储  
 `app.globalData`
+## 加载更多
+### `bindscrolltolower = moreLoad`滚动到底部或右侧触发事件
+#### 在制作加载更多时会发现不能触发相应事件
+* scroll-view不设高度也可以触发
+* scroll-view的滚动方向是否设置
 ## 事件
    `bindtap="tapName"`相当于tap事件  pc的click点击事件  
    在js中写对应的函数  
