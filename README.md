@@ -11,6 +11,7 @@
 **`bindscrolltolower = moreLoad`滚动到底部或右侧触发事件**
 #### 在制作加载更多时会发现不能触发相应事件
 * scroll-view不设高度也可以触发
+* 不设置高度无法触发`bindscroll`
 * scroll-view的滚动方向是否设置
 ## 配置页面的信息  
 `navigationBarTitleText`为标题的title  
