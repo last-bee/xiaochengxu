@@ -37,6 +37,9 @@
 |tabBar|Object|否|设置底部 tab 的表现|  
 |networkTimeout|Object|否|设置网络超时时间|  
 |debug|Boolean|否|设置是否开启 debug 模式| 
+
+> pages 
+  + pages接收的一个数组，每一项都是字符串，来指定小程序由哪些页面组成。每一项代表对应页面的【路径+文件名】信息，++ 数组的第一项代表小程序的初十页面。小程序中新增/减少页面，都需要对pages数组进行修改 **
 ## 下拉刷新
 
 * 在xx.json下配置`"enablePullDownRefresh": true`
