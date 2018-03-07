@@ -67,13 +67,7 @@
   
 | 属性 | 类型 |默认值 | 描述 |  最低版本|
 | :--- | :--- | :--- | :---| :--- | 
-|navigationBarBackgroundColor	|HexColor|#000000	|导航栏背景颜色，如"#000000"	|  | 
-|navigationBarTextStyle|	String	|white	|导航栏标题颜色，仅支持 black/white| |
-|navigationStyle|String|default|导航栏样式，仅支持 default/custom。custom 模式可自定义导航栏，只保留右上角胶囊状的按钮|  微信版本 6.6.0 |
-|backgroundColor|Object|否|设置底部 tab 的表现|  |
-|backgroundTextStyle|String|dark|下拉背景字体、loading 图的样式，仅支持 dark/light| |  
-|enablePullDownRefresh|Boolean|否|设置是否开启 debug 模式| |
-|onReachBottomDistance| Nubmer| | 页面上拉触底事件触发时距页面底部距离，单位为px| |
+
 
 
 
