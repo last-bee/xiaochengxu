@@ -1,5 +1,41 @@
 # 学习小程序
-
+## json文件
+> app.json
+  + `app.json`文件用来对微信进行全局配置，决定页面文件的路径、窗口表现、设置网络超时时间、设置多tab等
+  + 以下是一个包含了所有配置选项的app.json
+      ```
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/logs/index"
+        ],
+        "window": {
+          "navigationBarTitleText": "Demo"
+        },
+        "tabBar": {
+          "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页"
+          }, {
+            "pagePath": "pages/logs/logs",
+            "text": "日志"
+          }]
+        },
+        "networkTimeout": {
+          "request": 10000,
+          "downloadFile": 10000
+        },
+        "debug": true
+      }
+      ```
+> app.json 配置项列表
+| 属性 | 属性 |必填 | 描述 |
+| :--- | :--- | :--- | :---|
+|pages|String Array|是|设置页面路径|
+|window|Object|否|设置默认页面的窗口表现|
+|tabBar|Object|否|设置底部 tab 的表现|
+|networkTimeout|Object|否|设置网络超时时间|
+|debug|Boolean|否|设置是否开启 debug 模式|
 ## 下拉刷新
 
 * 在xx.json下配置`"enablePullDownRefresh": true`
